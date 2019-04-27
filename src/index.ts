@@ -3,7 +3,7 @@ import * as fs from "fs";
 import { ensureDir, emptyDir, copy, move } from "fs-extra";
 import * as path from "path";
 import { promisify } from "util";
-import { map, trim, startCase } from "lodash";
+import { map, startCase } from "lodash";
 import { MethodTypings } from "@open-rpc/schema-utils-js";
 import { OpenRPC } from "@open-rpc/meta-schema";
 
